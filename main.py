@@ -30,7 +30,7 @@ class App(ctk.CTk):
         self.tabview.add("Cálculos 1")  # add tab at the end
         self.tabview.add("Cálculos 2")  # add tab at the end
         self.tabview.add("Cálculos 3")  # add tab at the end
-        self.tabview.set("Cálculos 3")  # set currently visible tab 
+        self.tabview.set("Inicial")  # set currently visible tab 
 
         ########################## FRAME 1 ########################## 
         frame1=ctk.CTkFrame(self.tabview.tab("Inicial"),
